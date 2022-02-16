@@ -9,9 +9,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="/plugin/gallery/gallery.css">
     <link rel="stylesheet" href="/reveal-js/css/reset.css">
 <link rel="stylesheet" href="/reveal-js/css/reveal.css"><link rel="stylesheet" href="/reveal-hugo/themes/robot-lung.css" id="theme"><link rel="stylesheet" href="/highlight-js/default.min.css">
     
+<link rel="stylesheet" href="/plugin/gallery/gallery.css">
   </head>
   <body>
     
@@ -64,9 +66,9 @@
 <li>The economics</li>
 <li>The timelines</li>
 <li>The outcomes</li>
+<li>Past projects</li>
 </ul>
 </li>
-<li>Past projects</li>
 <li>Questions?</li>
 </ul>
 </section><section>
@@ -106,33 +108,49 @@
 </li>
 </ul>
 </section><section>
-<h2 id="mays-landing-nj-contd-1">Mays Landing, NJ (contd.)</h2>
-<p><img src="./img/figure_2.png" alt="Figure 2"></p>
-</section><section>
-<h3 id="mays-landing-nj---contd---aocs">Mays Landing, NJ - (contd.) - AOCs</h3>
-<p><img src="./img/figure_3.png" alt="Figure 3">
-Areas of Concern</p>
-</section><section>
-<h2 id="timeline---mays-landing-nj-contd">Timeline - Mays Landing, NJ (contd.)</h2>
-<ul>
-<li>Site was operational last in 1989 and vacated since then.</li>
-<li>Tanks were removed on August 3rd, 2018.</li>
-<li>An <em>in situ</em> remedial strategy for groundwater was proposed in Mar 2020.</li>
+<h2 id="project---image-gallery">Project - Image gallery</h2>
+<ul class="gallery" data-interval="3">
+  <li><img src="img/figure_2.png" alt="The site location"></li>
+  <li><img src="img/figure_3.png" alt="The areas of concern"></li>
+  <li><img src="img/ml_1.png" alt="description"></li>
+  <li><img src="img/ml_2.png" alt="Tanks."></li>
+  <li><img src="img/ml_3.png" alt="Tanks."></li>
+  <li><img src="img/ml_4.png" alt="Tanks."></li>
+  <li><img src="img/ml_5.png" alt="Tanks."></li>
+  <li><img src="img/ml_6.png" alt="Tanks."></li>
+  <li><img src="img/ml_7.png" alt="Tanks."></li>
+  <li><img src="img/ml_8.png" alt="Tanks."></li>
+  <li><img src="img/ml_9.png" alt="Tanks."></li>
+  <li><img src="img/ml_10.png" alt="Tanks."></li>
 </ul>
 </section><section>
-<h3 id="results-in-monitoring-wells-mw---mays-landing-nj-contd">Results in Monitoring Wells (MW) - Mays Landing, NJ (contd.)</h3>
-<ul>
-<li><img src="./img/ml_plot_without_subtitle.jpg" alt="The plot of contamination"></li>
-</ul>
-</section><section>
-<h3 id="notes-on-the-rate-of-bioremediation-at-site---mays-landing-nj-contd">Notes on the rate of bioremediation at site - Mays Landing, NJ (contd.)</h3>
-<ul>
-<li>Location: MW-3</li>
-<li>Date 3/13/2020: 130</li>
-<li>Date 4/27/2020: 29.9</li>
-<li>Duration: 45 days</li>
-<li>50 % decay: 20 days</li>
-</ul>
+<h3 id="final-state">Final State</h3>
+  <img src="img/ml_plot_without_subtitle.jpg" height = "40%" width = "40%"/>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Well Location</th>
+<th>Concentration</th>
+<th>Time to achieve 50% decay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3/13/2020</td>
+<td>MW-3</td>
+<td>130 ppb</td>
+<td>-</td>
+</tr>
+<tr>
+<td>4/27/2020</td>
+<td>MW-3</td>
+<td>29.9 ppb</td>
+<td>20 days</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Assuming that the decay is exponential.</p>
 </section><section>
 <h2 id="conclusions---mays-landingnj-contd">Conclusions - Mays Landing,NJ (contd.)</h2>
 <ul>
@@ -225,7 +243,7 @@ Areas of Concern</p>
 </script>
 
 <script type="application/json" id="reveal-hugo-site-params">null</script>
-<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"reveal-hugo/themes/robot-lung.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"reveal-hugo/themes/robot-lung.css","plugins":["plugin/gallery/gallery.plugin.js"]}</script>
 
 <script src="/reveal-js/js/reveal.js"></script>
 
@@ -271,6 +289,8 @@ Areas of Concern</p>
   <script type="text/javascript" src="/reveal-js/plugin/notes/notes.js"></script>
 
 
+
+<script type="text/javascript" src="/plugin/gallery/gallery.plugin.js"></script>
 
     
     
